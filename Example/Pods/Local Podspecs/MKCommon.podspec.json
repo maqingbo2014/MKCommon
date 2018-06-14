@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MKCommon/Classes/**/*"
+  "source_files": "MKCommon/Classes/**/*.{h,m}"
 }
