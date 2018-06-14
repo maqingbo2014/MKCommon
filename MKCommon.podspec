@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MKCommon'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MKCommon.'
+  s.summary          = '这是一个基础组件库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '这是一个基础组件库，包含一些常用的方法、分类的积累'
 
-  s.homepage         = 'https://github.com/androiddv/MKCommon'
+  s.homepage         = 'https://github.com/maqingbo2014/MKCommon'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'androiddv' => '249086205@qq.com' }
-  s.source           = { :git => 'https://github.com/androiddv/MKCommon.git', :tag => s.version.to_s }
+  s.author           = { 'maqingbo2014' => '249086205@qq.com' }
+  s.source           = { :git => 'https://github.com/maqingbo2014/MKCommon.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MKCommon/Classes/**/*'
+  s.source_files = 'MKCommon/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'MKCommon' => ['MKCommon/Assets/*.png']

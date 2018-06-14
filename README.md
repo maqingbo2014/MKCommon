@@ -1,6 +1,6 @@
 # MKCommon
 
-[![CI Status](https://img.shields.io/travis/androiddv/MKCommon.svg?style=flat)](https://travis-ci.org/androiddv/MKCommon)
+[![CI Status](https://img.shields.io/travis/maqingbo2014/MKCommon.svg?style=flat)](https://travis-ci.org/maqingbo2014/MKCommon)
 [![Version](https://img.shields.io/cocoapods/v/MKCommon.svg?style=flat)](https://cocoapods.org/pods/MKCommon)
 [![License](https://img.shields.io/cocoapods/l/MKCommon.svg?style=flat)](https://cocoapods.org/pods/MKCommon)
 [![Platform](https://img.shields.io/cocoapods/p/MKCommon.svg?style=flat)](https://cocoapods.org/pods/MKCommon)
@@ -22,7 +22,7 @@ pod 'MKCommon'
 
 ## Author
 
-androiddv, 249086205@qq.com
+maqingbo2014, 249086205@qq.com
 
 ## License
 

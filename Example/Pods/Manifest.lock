@@ -1,0 +1,16 @@
+PODS:
+  - MKCommon (0.1.0)
+
+DEPENDENCIES:
+  - MKCommon (from `../`)
+
+EXTERNAL SOURCES:
+  MKCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKCommon: ee4853a9faeb8e746ace664dc5fbdfbffc83aa3d
+
+PODFILE CHECKSUM: 11ddecbdc1e8520047c40430116532764fba2222
+
+COCOAPODS: 1.5.3

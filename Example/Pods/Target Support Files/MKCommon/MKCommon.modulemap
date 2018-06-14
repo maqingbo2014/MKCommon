@@ -1,0 +1,6 @@
+framework module MKCommon {
+  umbrella header "MKCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}
