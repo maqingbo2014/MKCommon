@@ -1,4 +1,5 @@
 # MKCommon
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/maqingbo2014/MKCommon.svg?style=flat)](https://travis-ci.org/maqingbo2014/MKCommon)
 [![Version](https://img.shields.io/cocoapods/v/MKCommon.svg?style=flat)](https://cocoapods.org/pods/MKCommon)
@@ -27,3 +28,6 @@ maqingbo2014, 249086205@qq.com
 ## License
 
 MKCommon is available under the MIT license. See the LICENSE file for more info.
+=======
+基础组件库，包括常用宏，分类，等等
+>>>>>>> 392e38a3f11efbd383cb354ec78e34b2c68300cf
