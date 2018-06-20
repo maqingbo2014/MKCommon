@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MKCommon/Classes/*.'
+  s.source_files = 'MKCommon/Classes/*'
   
   # s.resource_bundles = {
   #   'MKCommon' => ['MKCommon/Assets/*.png']
