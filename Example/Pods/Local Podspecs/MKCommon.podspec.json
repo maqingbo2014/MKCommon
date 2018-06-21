@@ -1,6 +1,6 @@
 {
   "name": "MKCommon",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "这是一个基础组件库",
   "description": "这是一个基础组件库，包含一些常用的方法、分类的积累",
   "homepage": "https://github.com/maqingbo2014/MKCommon",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/maqingbo2014/MKCommon.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MKCommon/Classes/*"
+  "source_files": "MKCommon/Classes/*",
+  "dependencies": {
+    "MJExtension": [
+      "~> 3.0.10"
+    ]
+  }
 }

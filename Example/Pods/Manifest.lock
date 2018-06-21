@@ -1,15 +1,22 @@
 PODS:
-  - MKCommon (0.1.0)
+  - MJExtension (3.0.15)
+  - MKCommon (1.0.0):
+    - MJExtension (~> 3.0.10)
 
 DEPENDENCIES:
   - MKCommon (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJExtension
 
 EXTERNAL SOURCES:
   MKCommon:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MKCommon: b2f94b76069dc7dbdb9f6ada841a7499577e634e
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+  MKCommon: ef224f2be617e407a29496aa72fe3b7c77d86174
 
 PODFILE CHECKSUM: 11ddecbdc1e8520047c40430116532764fba2222
 
