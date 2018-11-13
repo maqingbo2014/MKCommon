@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKCommon'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '这是一个基础组件库'
 
 # This description is used to generate tags and improve search results.
