@@ -7,7 +7,8 @@
 //
 
 #import "MKViewController.h"
-#import "MKCommon.h"
+#import <MKCommon/MKCommon.h>
+
 @interface MKViewController ()
 
 @end

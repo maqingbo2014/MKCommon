@@ -1,7 +1,11 @@
 PODS:
   - MJExtension (3.0.15)
-  - MKCommon (1.0.0):
+  - MKCommon (1.0.1):
     - MJExtension (~> 3.0.10)
+    - SDWebImage (~> 3.8.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
   - MKCommon (from `../`)
@@ -9,6 +13,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - MJExtension
+    - SDWebImage
 
 EXTERNAL SOURCES:
   MKCommon:
@@ -16,7 +21,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJExtension: 3f039575db1b135a20699ad298713b26acec1528
-  MKCommon: ef224f2be617e407a29496aa72fe3b7c77d86174
+  MKCommon: 65c8f9c818e42503fc794c3851e0bbef7b800733
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
 PODFILE CHECKSUM: 11ddecbdc1e8520047c40430116532764fba2222
 
