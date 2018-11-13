@@ -1,6 +1,6 @@
 PODS:
   - MJExtension (3.0.15)
-  - MKCommon (1.0.1):
+  - MKCommon (1.0.3):
     - MJExtension (~> 3.0.10)
     - SDWebImage (~> 3.8.2)
   - SDWebImage (3.8.2):
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MJExtension: 3f039575db1b135a20699ad298713b26acec1528
-  MKCommon: 65c8f9c818e42503fc794c3851e0bbef7b800733
+  MKCommon: 22273188bcdde083d1cd1ccc6093e9bf21857b02
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
 PODFILE CHECKSUM: 11ddecbdc1e8520047c40430116532764fba2222
