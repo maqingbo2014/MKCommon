@@ -10,13 +10,13 @@
 #endif
 #endif
 
+#import "MKCommon.h"
 #import "BaseModel.h"
 #import "DefineMagic.h"
 #import "git.h"
 #import "kjj.h"
 #import "rac.h"
 #import "SystemDefine.h"
-#import "MKCommon.h"
 #import "Collection+Util.h"
 #import "NSDate+Time.h"
 #import "NSObject+MJModel.h"

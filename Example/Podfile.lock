@@ -1,7 +1,21 @@
 PODS:
-  - MJExtension (3.0.15)
+  - MJExtension (3.0.15.1)
   - MKCommon (1.0.3):
+    - MKCommon/Base (= 1.0.3)
+    - MKCommon/Define (= 1.0.3)
+    - MKCommon/NSObjc (= 1.0.3)
+    - MKCommon/Tools (= 1.0.3)
+    - MKCommon/UIKit (= 1.0.3)
+  - MKCommon/Base (1.0.3):
     - MJExtension (~> 3.0.10)
+  - MKCommon/Define (1.0.3)
+  - MKCommon/NSObjc (1.0.3):
+    - MJExtension (~> 3.0.10)
+    - MKCommon/Tools
+  - MKCommon/Tools (1.0.3):
+    - MKCommon/Define
+  - MKCommon/UIKit (1.0.3):
+    - MKCommon/Tools
     - SDWebImage (~> 3.8.2)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -20,10 +34,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
-  MKCommon: 22273188bcdde083d1cd1ccc6093e9bf21857b02
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MKCommon: 043b5f2dc47f32fa33bf99af5e51b0f773da3531
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 11ddecbdc1e8520047c40430116532764fba2222
+PODFILE CHECKSUM: 60a7b15c51b24f59ed82bbe8a19869c7337d2362
 
 COCOAPODS: 1.5.3

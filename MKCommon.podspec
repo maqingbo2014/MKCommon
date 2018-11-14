@@ -23,20 +23,48 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'maqingbo2014' => '249086205@qq.com' }
-  s.source           = { :git => 'https://github.com/maqingbo2014/MKCommon.git', :tag => s.version.to_s, :submodules => true}
+  s.source           = { :git => 'https://github.com/maqingbo2014/MKCommon.git', :tag => s.version.to_s}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  
+  
+  s.source_files = 'MKCommon/Classes/MKCommon.h'
+  s.public_header_files = 'MKCommon/Classes/MKCommon.h'
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'MKCommon/Classes/**/*'
+  
+  s.subspec 'Base' do |ss|
+      ss.source_files = 'MKCommon/Classes/Base/*'
+      ss.public_header_files = 'MKCommon/Classes/Base/*.h'
+      ss.dependency 'MJExtension', '~> 3.0.10'
+  end
+  
+  s.subspec 'Define' do |ss|
+      ss.source_files = 'MKCommon/Classes/Define/*'
+      ss.public_header_files = 'MKCommon/Classes/Define/*.h'
+  end
+  
+  s.subspec 'NSObjc' do |ss|
+      ss.source_files = 'MKCommon/Classes/NSObjc/*'
+      ss.public_header_files = 'MKCommon/Classes/NSObjc/*.h'
+      ss.dependency 'MKCommon/Tools'
+      ss.dependency 'MJExtension', '~> 3.0.10'
+  end
+  
+  s.subspec 'Tools' do |ss|
+      ss.source_files = 'MKCommon/Classes/Tools/*'
+      ss.public_header_files = 'MKCommon/Classes/Tools/*.h'
+      ss.dependency 'MKCommon/Define'
+  end
+  
+  s.subspec 'UIKit' do |ss|
+      ss.source_files = 'MKCommon/Classes/UIKit/*'
+      ss.public_header_files = 'MKCommon/Classes/UIKit/*.h'
+      ss.dependency 'MKCommon/Tools'
+      ss.dependency 'SDWebImage', '~> 3.8.2'
+      ss.frameworks = 'UIKit'
+  end
   
   # s.resource_bundles = {
   #   'MKCommon' => ['MKCommon/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'MJExtension', '~> 3.0.10'
-  s.dependency 'SDWebImage', '~> 3.8.2'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

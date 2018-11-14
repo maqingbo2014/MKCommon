@@ -2,6 +2,11 @@ use_frameworks!
 
 target 'MKCommon_Example' do
   pod 'MKCommon', :path => '../'
+#  pod 'MKCommon/Base', :path => '../'
+#  pod 'MKCommon/Define', :path => '../'
+#  pod 'MKCommon/NSObjc', :path => '../'
+#  pod 'MKCommon/Tools', :path => '../'
+#  pod 'MKCommon/UIKit', :path => '../'
 
   target 'MKCommon_Tests' do
     inherit! :search_paths
